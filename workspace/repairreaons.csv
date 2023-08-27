@@ -1,0 +1,17 @@
+"Reason","Repair","Amount"
+"Flat- reparable","Tire repair",70
+"Flat- hole not reparable","Tire replacement",66
+"Crack","Windshield replacement",63
+"Dead battery","Battery replacement",56
+"Rust","Wheel Arch",55
+"Rust","Rocker Panel",53
+"Rust","Fender replacement",52
+"Corrosion","Brake line replacement",51
+"Rust","Cab corner panel",49
+"Hole","Fuel tank",48
+"Rust","Shocks",47
+"Corrosion","Fuel tank",46
+"Rust","Struts",43
+"Collision","Dent Repair Left Fender",37
+"slips in and out of gear","Transmission",28
+"Collision","Dent Repair Rear",25
