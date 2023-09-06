@@ -1,10 +1,12 @@
+# This code is designed to clean and convert the US State abbreviation data to the full name in order to optimize visualization of repairs
+
+
 import pandas as pd
 
-# Read the CSV file
 csv_file_path = r'c:\Users\Owner\Downloads\CLEAN_FleetMaintenanceRecords.csv'
 df = pd.read_csv(csv_file_path)
 
-# Dictionary mapping state abbreviations to full names
+
 us_state_abbreviations = {
     'AL': 'Alabama',
     'AK': 'Alaska',
@@ -59,11 +61,10 @@ us_state_abbreviations = {
     'DC': 'District of Columbia'
 }
 
-# Map state abbreviations to full names and create a new 'Full State Name' column
 df['State'] = df['State'].map(us_state_abbreviations)
 
-# Save the modified DataFrame back to the CSV file
+
 output_csv_path = r'c:\Users\Owner\Downloads\CLEAN_FleetMaintenanceRecords_modified.csv'
 df.to_csv(output_csv_path, index=False)
 
-print("Modified data saved in a new CSV file.")
+print("Modified data saved!.")
